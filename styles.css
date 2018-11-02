@@ -1,3 +1,121 @@
+div.navbar-nav{
+  background : #3366ff;
+  float:left;
+  margin-right: 20%;
+  width:100%;
+  line-height: 70px;
+  height: 70px;
+}
+
+div.navbar-nav > a.nav-item.nav-link {
+  margin-right: 6px;
+  margin-left: 5px;
+}
+
+a.nav-item.nav-link {
+  color: black;
+  font-size: 25px;
+}
+
+img{
+  height: 40px;
+  width: 8%;
+  margin-left: 5px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  color: #444;
+}
+
+.material-icons {
+    font-size: 60px !important;
+    color: darkblue;
+}
+
+#small-button {
+    font-size: 24px !important;
+    color: black;
+}
+
+iframe {
+    padding-right: 250px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 100px 20px;
+  text-align: center;
+
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.page-description {
+  font-size: 1.1rem;
+  margin: 0 auto;
+}
+
+.tz-link {
+  font-size: 1em;
+  color: #1da7da;
+  text-decoration: none;
+}
+
+.no-browser-support {
+  display: none;
+  font-size: 1.2rem;
+  color: #e64427;
+  margin-top: 35px;
+}
+
+.app {
+  margin: 40px auto;
+}
+
+.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+#note-textarea {
+  margin: 20px 0;
+}
+
+#recording-instructions {
+  margin: 15px auto 60px;
+}
+
+#notes {
+  padding-top: 20px;
+}
+
+.note .header {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.note .content {
+  margin-bottom: 40px;
+}
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -212,96 +330,8 @@
   display: block;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-p {
-  color: #444;
-}
-
-.material-icons {
-    font-size: 60px !important;
-    color: darkblue;
-}
-
-#small-button {
-    font-size: 24px !important;
-    color: black;
-}
-
-iframe {
-    padding-right: 250px;
-}
-
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 100px 50px;
-  text-align: center;
-}
-
-.container h1 {
-  margin-bottom: 20px;
-}
-
-.page-description {
-  font-size: 1.1rem;
-  margin: 0 auto;
-}
-
-.tz-link {
-  font-size: 1em;
-  color: #1da7da;
-  text-decoration: none;
-}
-
-.no-browser-support {
-  display: none;
-  font-size: 1.2rem;
-  color: #e64427;
-  margin-top: 35px;
-}
-
-.app {
-  margin: 40px auto;
-}
-
-.flip {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-}
-
-#note-textarea {
-  margin: 20px 0;
-}
-
-#recording-instructions {
-  margin: 15px auto 60px;
-}
-
-#notes {
-  padding-top: 20px;
-}
-
-.note .header {
-  font-size: 0.9em;
-  color: #888;
-  margin-bottom: 10px;
-}
-
-.note .delete-note,
-.note .listen-note {
-  text-decoration: none;
-  margin-left: 15px;
-}
-
-.note .content {
-  margin-bottom: 40px;
+.fa-comment-alt:before {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 768px) {
