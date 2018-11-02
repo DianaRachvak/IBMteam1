@@ -105,16 +105,7 @@ $("#start-record-btn").on("click", function(e) {
 $("#pause-record-btn").on("click", function(e) {
   recognition.stop();
   instructions.text("Voice recognition paused.");
-});
-
-// Sync the text inside the text area with the noteContent variable.
-noteTextarea.on("input", function() {
-  noteContent = $(this).val();
-});
-
-$("#save-note-btn").on("click", function(e) {
-  recognition.stop();
-
+  /*
   if (!noteContent.length) {
     instructions.text(
       "Could not save empty note. Please add a message to your note."
@@ -129,7 +120,12 @@ $("#save-note-btn").on("click", function(e) {
     renderNotes(getAllNotes());
     noteTextarea.val("");
     instructions.text("Note saved successfully.");
-  }
+  }*/
+});
+
+// Sync the text inside the text area with the noteContent variable.
+noteTextarea.on("input", function() {
+  noteContent = $(this).val();
 });
 
 notesList.on("click", function(e) {

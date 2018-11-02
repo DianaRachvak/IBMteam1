@@ -221,8 +221,18 @@ p {
   color: #444;
 }
 
-button:focus {
-  outline: 0;
+.material-icons {
+    font-size: 60px !important;
+    color: darkblue;
+}
+
+#small-button {
+    font-size: 24px !important;
+    color: black;
+}
+
+iframe {
+    padding-right: 250px;
 }
 
 .container {
